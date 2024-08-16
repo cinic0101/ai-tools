@@ -1,6 +1,7 @@
 from image.iamge_tool import ImageTool
 
 
+
 class PassportRecognition(ImageTool):
     _lang_list = []
 
@@ -9,7 +10,7 @@ class PassportRecognition(ImageTool):
         self._lang_list = lang_list
 
     def _pre_process(self) -> dict:
-        pass
+        return {}
 
     def _process(self, preprocessed_data: dict) -> dict:
         pass
